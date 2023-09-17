@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+:root {
+    --text: #010a19;
+    --background: #e6f0fe;
+    --primary: #8a7efb62;
+    --secondary: #e6c4fd;
+    --accent: #9107ed;
+}
+.menu > ul > li > a:hover {
+    color: white;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: var(--background);
+}
+i {
+    color: blue;
+}
+i:hover {
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 60px;
+    background-color: var(--primary);
+}
+.logo {
+    font-size: 68px;
+    font-family: 'Bangers', cursive;
+}
+
+.menu > ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu > ul > li > a:hover {
+    color: white;
+    font-weight: 700;
+}
+.main {
+    padding: 20px;
+    text-align: center;
+}
+.main button {
+    font-size: 20px;
+    background-origin: padding-box;
+}
+.main button:hover {
+    color: blue;
+}
+.recommendations {
+    /* border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between; */
+    margin-right: 15px;
+}
+.categoryname {
+    margin-left: 80px;
+}
+.category {
+    background-color: var(--primary); 
+    margin-left: 50px;
+}
+.More {
+    background-color: var(--primary);
+    margin-left: 50px;   
+}
+.more {
+    margin-left: 500px;
+}
+.cereals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 25px;
+    background-color: var(--primary);
+    gap: 0px;
+    margin-left: 50px;
+}
+.cereal {
+    background-color: #9107ed;
+    width: 200px;
+    height: 280px;
+}
+.cereal {
+    background-color: #010a19;
+    width: 200px;
+    height: 280px;
+}
+.cereal {
+    background-color: blue;
+    width: 200px;
+    height: 280px;
+}
+.cereal {
+    background-color: green;
+    width: 200px;
+    height: 280px;
+}
+.cereal {
+    background-color: #e6f0fe;
+    width: 200px;
+    height: 280px;
+}
+.cereal img{
+    width: 100%;
+}
+footer {
+    background-color: var(--text);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 12px;
+    background-color: var(--background);
+    cursor: pointer;
+}
+
+button:hover {
+    border-top: none;
+    border-left: none;
+    /* color: var(--primary); */
+    /* background-color: #ffffff; */
+}

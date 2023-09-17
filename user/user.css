@@ -1,0 +1,56 @@
+:root {
+    --text: #010a19;
+    --background: #e6f0fe;
+    --primary: #8a7efb62;
+    --secondary: #e6c4fd;
+    --accent: #9107ed;
+}
+
+i {
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+i:hover {
+    color: white;
+}
+
+.atilte {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bolder;
+    margin: 30px 0px;
+}
+
+#tables {
+    width: 90%;
+    margin: 0 auto 180px auto;
+    border-collapse: collapse;
+}
+
+#tables td, #tables th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tables tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tables tr:hover {
+    background-color: #ddd;
+}
+
+#tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primary);
+    color: black;
+    cursor: pointer;
+}
+
+td span {
+    cursor: pointer;
+}

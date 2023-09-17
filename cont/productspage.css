@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}:root {
+    --text: #010a19;
+    --background: #e6f0fe;
+    --primary: #8a7efb62;
+    --secondary: #e6c4fd;
+    --accent: #9107ed;
+}
+.menu > ul > li > a:hover {
+    color: white;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: var(--background);
+}
+i {
+    color: blue;
+}
+i:hover {
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 60px;
+    background-color: var(--primary);
+}
+.logo {
+    font-size: 68px;
+    font-family: 'Bangers', cursive;
+}
+.menu > ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+.main1 {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    align-items: right;
+    justify-content: space-between;
+}
+.main1 >a{
+    background-color: black;
+    color: white;
+}
+.main1 >a:hover{
+color: blueviolet;
+}
+
+.gridspro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 70px;
+}
+
+.product {
+    background-color: var(--primary);
+    padding: 20px;
+}
+
+.product img {
+    width: 80%;
+}
+
+.product-card {
+
+    background-color: #f9f9f9;
+    padding: 20px;
+    boxborder-radius: 8px;
+    -shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.A1 img {
+    /* height: 200px; */
+    width: 40%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    border-top: none;
+    border-left: none;
+    /* color: var(--primary); */
+    /* background-color: #ffffff; */
+}
+button:hover {
+    color: #9107ed;
+}
+#more {
+    display: none;
+}
+footer {
+    background-color: var(--text);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}

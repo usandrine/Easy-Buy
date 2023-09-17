@@ -1,0 +1,87 @@
+.atilte {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bolder;
+    margin: 30px 0px;
+}
+
+
+#tables {
+    width: 90%;
+    margin: 0 auto 180px auto;
+    border-collapse: collapse;
+}
+
+#tables td, #tables th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tables tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tables tr:hover {
+    background-color: #ddd;
+}
+
+#tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primary);
+    color: black;
+    cursor: pointer;
+}
+
+td span {
+    cursor: pointer;
+}
+
+.gridspro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 70px;
+}
+
+.product {
+    background-color: var(--primary);
+    padding: 20px;
+}
+.product img {
+    width: 80%;
+}
+
+
+.theformdiv {
+    background-color: var(--primary);
+    margin: 100px auto ;
+    width: 50%;
+    padding: 15px 50px;
+}
+
+.typebxs {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+
+}
+
+.typebx {
+    background-color: #9107ed6e;
+    padding: 40px 40px;
+    margin: 70px 0px 70px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.typebx:hover {
+    background-color: #9107ed;
+    color: white;
+}
+
+.cnt {
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Or Create Account</title>
+    <script src="https://kit.fontawesome.com/1de10a309b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./new.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="#">EaZyBuY</a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./productspage.html">Products</a></li>
+                <li><a href="./cat.html">Categories</a></li>
+                <li><a href="./accountlogin.html">Login/Register</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <div class="theformdiv">
+            <h2>Welcome to EaZyBuY<br>Please Log In to Continue</h2>
+            <form action="merchant_signup.php" method="POST">
+                <label for="full_name">Full Name</label>
+                <input type="text" id="full_name" name="full_name" required>
+            
+                <label for="phone_number">Phone Number</label>
+                <input type="tel" id="phone_number" name="phone_number" required>
+            
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="date_of_birth">Date Of Birth</label>
+                <input type="date" id="date_of_birth" name="date_of_birth" required>
+            
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            
+                <label for="business_name">Business Name</label>
+                <input type="text" id="business_name" name="business_name" required>
+            
+                <label for="business_description">Business Description</label>
+                <textarea id="business_description" name="business_description" rows="4" required></textarea>
+            
+                <label for="business_type">Business Type</label>
+                <select id="business_type" name="business_type" required>
+                    <option value="retail">Retail</option>
+                    <option value="handmade">Handmade Crafts</option>
+                    <option value="electronics">Electronics</option>
+                </select>
+                <label for="business_license">Business License (PDF or Image)</label>
+                <input type="file" id="business_license" name="business_license" accept=".pdf, .jpg, .jpeg, .png" required>
+            
+                <label for="tax_id">Tax ID or Registration Number</label>
+                <input type="text" id="tax_id" name="tax_id" required>
+            
+                <label for="address">Business Address</label>
+                <input type="text" id="address" name="address" required>
+            
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required>
+            
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" required>
+            
+                <label for="zip_code">ZIP Code</label>
+                <input type="text" id="zip_code" name="zip_code" required>
+            
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" required>
+                <div class="center">
+                    <button type="submit"><a href="file:///C:/xampp/htdocs/sandrineog/SandrineProject/seller/index.html">Create Account</a></button>
+                </div>
+            
+                <div class="small">Already have an account? <a href="./accountlogin.html">Log In Here</a></div>
+            </form>
+            
+        </div>
+    </main>
+
+    <footer>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <div class="copyright">
+            &copy; 2023 EaZyBuY. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
